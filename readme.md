@@ -1,7 +1,5 @@
 # Anime Recommendation System using Spark and Kafka
 
-# Anime Recommendation System
-
 ## Giới thiệu đề tài
 
 Với sự phát triển nhanh chóng của công nghệ và các nền tảng phát trực tuyến, ngành công nghiệp anime đã mở rộng đáng kể, dẫn đến những thách thức trong việc cung cấp nội dung cá nhân hóa cho người dùng. Sự đa dạng trong sở thích của khán giả và sự gia tăng các tựa anime đòi hỏi các hệ thống gợi ý hiệu quả. Các hệ thống gợi ý dựa trên nội dung sử dụng các thuộc tính như thể loại, đánh giá và sở thích của người dùng để tạo ra các gợi ý phù hợp. Tuy nhiên, khả năng mở rộng và hiệu quả của các phương pháp truyền thống bị giới hạn bởi khối lượng dữ liệu ngày càng tăng.
