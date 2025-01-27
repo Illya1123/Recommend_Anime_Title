@@ -36,12 +36,17 @@ Bộ dữ liệu anime được crawl từ trang chủ **animevietsub.page** và
    cd Recommend_Anime_Title
    ```
 2. Khởi tạo topic trên Kafka với tên `anime`.
-3. Chạy song song các file:
+3. Nếu muốn crawl dữ liệu:
+   - Cài đặt trình duyệt **Brave**.
+   - Xác định đường dẫn đến file `brave.exe` và cập nhật vào mã nguồn nơi cần thiết.
+   - Chạy file `crawl_data.ipynb` để crawl dữ liệu từ trang web, **(sẽ mất tầm 30 phút hơn để crawl data nên vui lòng chờ)**
+   - Chạy file `anime_data_merge_to_csv.ipynb` để gộp và chuyển từ `json` sang file `csv`
+   - Tiến hành làm sạch dữ liệu, chạy file `anime_data_cleaning.ipynb`
+4. Chạy song song các file:
    - `streaming.ipynb`
    - `Content_producer.ipynb`
-4. Chạy demo trên web app:
-   - Chạy các file:
-     - `anime_data_cleaning.ipynb`
+5. Chạy demo trên web app:
+   - Chạy file:
      - `recommendation_app.py` bằng lệnh:
        ```
        streamlit run recommendation_app.py
